@@ -32,8 +32,8 @@
 		70BF70631C50D02E00BB1267 /* UIFont+fontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BF70621C50D02E00BB1267 /* UIFont+fontStyle.swift */; };
 		70BF70651C50D07700BB1267 /* FontStyleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BF70641C50D07700BB1267 /* FontStyleable.swift */; };
 		70BF70671C50D5F200BB1267 /* FontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BF70661C50D5F200BB1267 /* FontStyle.swift */; };
-		70BF706A1C50D75500BB1267 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BF70691C50D75500BB1267 /* UILabel.swift */; };
-		70BF706C1C50D76D00BB1267 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BF706B1C50D76D00BB1267 /* UIButton.swift */; };
+		70BF706C1C50D76D00BB1267 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BF706B1C50D76D00BB1267 /* Extensions.swift */; };
+		70CF9BC21C5107A000DADCB4 /* BadType-Workaround.swift in Copy Workaround (rdar://23114017) File */ = {isa = PBXBuildFile; fileRef = 70CF9BBE1C5106C900DADCB4 /* BadType-Workaround.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +97,17 @@
 			name = "Copy External Frameworks Debug Symbols";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		70CF9BC11C51077C00DADCB4 /* Copy Workaround (rdar://23114017) File */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				70CF9BC21C5107A000DADCB4 /* BadType-Workaround.swift in Copy Workaround (rdar://23114017) File */,
+			);
+			name = "Copy Workaround (rdar://23114017) File";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -125,8 +136,8 @@
 		70BF70621C50D02E00BB1267 /* UIFont+fontStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+fontStyle.swift"; sourceTree = "<group>"; };
 		70BF70641C50D07700BB1267 /* FontStyleable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontStyleable.swift; sourceTree = "<group>"; };
 		70BF70661C50D5F200BB1267 /* FontStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontStyle.swift; sourceTree = "<group>"; };
-		70BF70691C50D75500BB1267 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UILabel.swift; path = "UIKit Extensions/UILabel.swift"; sourceTree = "<group>"; };
-		70BF706B1C50D76D00BB1267 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIButton.swift; path = "UIKit Extensions/UIButton.swift"; sourceTree = "<group>"; };
+		70BF706B1C50D76D00BB1267 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "UIKit Extensions/Extensions.swift"; sourceTree = "<group>"; };
+		70CF9BBE1C5106C900DADCB4 /* BadType-Workaround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BadType-Workaround.swift"; path = "UIKit Extensions/BadType-Workaround.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,8 +260,8 @@
 		70BF70681C50D72000BB1267 /* UIKit Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				70BF706B1C50D76D00BB1267 /* UIButton.swift */,
-				70BF70691C50D75500BB1267 /* UILabel.swift */,
+				70CF9BBE1C5106C900DADCB4 /* BadType-Workaround.swift */,
+				70BF706B1C50D76D00BB1267 /* Extensions.swift */,
 			);
 			name = "UIKit Extensions";
 			sourceTree = "<group>";
@@ -278,6 +289,8 @@
 				705576AD1C4EE9B60071C421 /* Frameworks */,
 				705576AE1C4EE9B60071C421 /* Headers */,
 				705576AF1C4EE9B60071C421 /* Resources */,
+				70CF9BBD1C51047700DADCB4 /* Generate Workaround (rdar://23114017) File */,
+				70CF9BC11C51077C00DADCB4 /* Copy Workaround (rdar://23114017) File */,
 			);
 			buildRules = (
 			);
@@ -414,6 +427,20 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"SwiftLint not found, download from https://github.com/realm/SwiftLint\"\nfi";
 		};
+		70CF9BBD1C51047700DADCB4 /* Generate Workaround (rdar://23114017) File */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Workaround (rdar://23114017) File";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp BadType/UIKit\\ Extensions/Extensions.swift BadType/UIKit\\ Extensions/BadType-Workaround.swift\nprintf '%s\\n' /import\\ UIKit/a 'import BadType' . w q | ex -s BadType/UIKit\\ Extensions/BadType-Workaround.swift\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -423,8 +450,7 @@
 			files = (
 				701061971C4F7F9D00E90E58 /* FontStyleCatalog.swift in Sources */,
 				701061991C4F807600E90E58 /* Error.swift in Sources */,
-				70BF706A1C50D75500BB1267 /* UILabel.swift in Sources */,
-				70BF706C1C50D76D00BB1267 /* UIButton.swift in Sources */,
+				70BF706C1C50D76D00BB1267 /* Extensions.swift in Sources */,
 				70BF70651C50D07700BB1267 /* FontStyleable.swift in Sources */,
 				705576E91C4EEBE20071C421 /* BadType.swift in Sources */,
 				70BF70631C50D02E00BB1267 /* UIFont+fontStyle.swift in Sources */,
