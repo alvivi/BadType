@@ -6,8 +6,8 @@ import UIKit
 
 private var fontStyleAssociatedObjectKey: UInt8 = 0
 
-extension UIFont {
-  var fontStyle: String? {
+public extension UIFont {
+  @objc public var fontStyle: NSString? {
     get {
       return objc_getAssociatedObject(self, &fontStyleAssociatedObjectKey) as? String
     }

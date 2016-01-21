@@ -65,7 +65,7 @@ public final class BadType: NSObject {
 
   // MARK: Styleables Management
 
-  internal static func addStyleable(styleableObject: FontStyleable) {
+  public static func addStyleable(styleableObject: FontStyleable) {
     dispatch_async(dispatch_get_main_queue()) {
       styleables.addObject(styleableObject)
     }
