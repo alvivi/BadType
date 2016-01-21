@@ -1,5 +1,5 @@
 # BadType
 
-**iOS Dynamic Type** + **Custom Font Styles** + **Storyboard** (Optional)
+**iOS Dynamic Type** + **Custom Font Styles** + **Interface Builder** (Optional)
 
-Work in progress
+This framework is functional, but right now, requires some work, mostly documentation.
