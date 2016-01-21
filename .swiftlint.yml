@@ -1,0 +1,5 @@
+included:
+  - BadType
+excluded:
+  - Carthage
+line_length: 180

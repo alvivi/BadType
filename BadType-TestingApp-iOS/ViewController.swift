@@ -1,25 +1,11 @@
-//
-//  ViewController.swift
-//  BadType-TestingApp-iOS
-//
-//  Created by Alvaro Vilanova Vidal on 19/1/16.
-//  Copyright © 2016 hacking.bar. All rights reserved.
-//
+// Copyright 2015 Alvaro Vilanova Vidal. All rights reserved.
+// Use of this source code is governed by a BSD-style
+// license that can be found in the LICENSE file.
 
 import UIKit
 
 class ViewController: UIViewController {
-
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+  @IBAction func unwindToFrist(segue: UIStoryboardSegue) {
+    // Intentionally empty
   }
-
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
-  }
-
-
 }
-

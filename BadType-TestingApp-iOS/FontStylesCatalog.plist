@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Style Name</key>
+		<string>Wow Bold</string>
+		<key>Size Categories</key>
+		<dict>
+			<key>ExtraSmall</key>
+			<dict>
+				<key>Traits</key>
+				<string>Bold</string>
+				<key>Font Name</key>
+				<string>Marker Felt</string>
+				<key>Size</key>
+				<integer>12</integer>
+			</dict>
+			<key>Small</key>
+			<dict>
+				<key>Traits</key>
+				<string>Bold</string>
+				<key>Font Name</key>
+				<string>Marker Felt</string>
+				<key>Size</key>
+				<integer>12</integer>
+			</dict>
+			<key>Medium</key>
+			<dict>
+				<key>Traits</key>
+				<string>Bold</string>
+				<key>Font Name</key>
+				<string>Marker Felt</string>
+				<key>Size</key>
+				<integer>13</integer>
+			</dict>
+			<key>Large</key>
+			<dict>
+				<key>Traits</key>
+				<string>Bold</string>
+				<key>Font Name</key>
+				<string>Marker Felt</string>
+				<key>Size</key>
+				<integer>14</integer>
+			</dict>
+			<key>ExtraLarge</key>
+			<dict>
+				<key>Traits</key>
+				<string>Bold</string>
+				<key>Font Name</key>
+				<string>Marker Felt</string>
+				<key>Size</key>
+				<integer>15</integer>
+			</dict>
+			<key>ExtraExtraLarge</key>
+			<dict>
+				<key>Traits</key>
+				<string>Bold</string>
+				<key>Font Name</key>
+				<string>Marker Felt</string>
+				<key>Size</key>
+				<integer>16</integer>
+			</dict>
+			<key>ExtraExtraExtraLarge</key>
+			<dict>
+				<key>Traits</key>
+				<string>Bold</string>
+				<key>Font Name</key>
+				<string>Marker Felt</string>
+				<key>Size</key>
+				<integer>16</integer>
+			</dict>
+			<key>AccessibilityMedium</key>
+			<dict>
+				<key>Traits</key>
+				<string>Bold</string>
+				<key>Font Name</key>
+				<string>Marker Felt</string>
+				<key>Size</key>
+				<integer>16</integer>
+			</dict>
+			<key>AccessibilityLarge</key>
+			<dict>
+				<key>Traits</key>
+				<string>Bold</string>
+				<key>Font Name</key>
+				<string>Marker Felt</string>
+				<key>Size</key>
+				<integer>17</integer>
+			</dict>
+			<key>AccessibilityExtraLarge</key>
+			<dict>
+				<key>Traits</key>
+				<string>Bold</string>
+				<key>Font Name</key>
+				<string>Marker Felt</string>
+				<key>Size</key>
+				<integer>17</integer>
+			</dict>
+			<key>AccessibilityExtraExtraLarge</key>
+			<dict>
+				<key>Traits</key>
+				<string>Bold</string>
+				<key>Font Name</key>
+				<string>Marker Felt</string>
+				<key>Size</key>
+				<integer>18</integer>
+			</dict>
+			<key>AccessibilityExtraExtraExtraLarge</key>
+			<dict>
+				<key>Traits</key>
+				<string>Bold</string>
+				<key>Font Name</key>
+				<string>Marker Felt</string>
+				<key>Size</key>
+				<integer>19</integer>
+			</dict>
+		</dict>
+	</dict>
+	<dict>
+		<key>Style Name</key>
+		<string>Wow</string>
+		<key>Size Categories</key>
+		<dict>
+			<key>ExtraSmall</key>
+			<dict>
+				<key>Font Name</key>
+				<string>Marker Felt</string>
+				<key>Size</key>
+				<integer>12</integer>
+			</dict>
+			<key>Small</key>
+			<dict>
+				<key>Font Name</key>
+				<string>Marker Felt</string>
+				<key>Size</key>
+				<integer>12</integer>
+			</dict>
+			<key>Medium</key>
+			<dict>
+				<key>Font Name</key>
+				<string>Marker Felt</string>
+				<key>Size</key>
+				<integer>13</integer>
+			</dict>
+			<key>Large</key>
+			<dict>
+				<key>Font Name</key>
+				<string>Marker Felt</string>
+				<key>Size</key>
+				<integer>14</integer>
+			</dict>
+			<key>ExtraLarge</key>
+			<dict>
+				<key>Font Name</key>
+				<string>Marker Felt</string>
+				<key>Size</key>
+				<integer>15</integer>
+			</dict>
+			<key>ExtraExtraLarge</key>
+			<dict>
+				<key>Font Name</key>
+				<string>Marker Felt</string>
+				<key>Size</key>
+				<integer>16</integer>
+			</dict>
+			<key>ExtraExtraExtraLarge</key>
+			<dict>
+				<key>Font Name</key>
+				<string>Marker Felt</string>
+				<key>Size</key>
+				<integer>16</integer>
+			</dict>
+			<key>AccessibilityMedium</key>
+			<dict>
+				<key>Font Name</key>
+				<string>Marker Felt</string>
+				<key>Size</key>
+				<integer>16</integer>
+			</dict>
+			<key>AccessibilityLarge</key>
+			<dict>
+				<key>Font Name</key>
+				<string>Marker Felt</string>
+				<key>Size</key>
+				<integer>17</integer>
+			</dict>
+			<key>AccessibilityExtraLarge</key>
+			<dict>
+				<key>Font Name</key>
+				<string>Marker Felt</string>
+				<key>Size</key>
+				<integer>17</integer>
+			</dict>
+			<key>AccessibilityExtraExtraLarge</key>
+			<dict>
+				<key>Font Name</key>
+				<string>Marker Felt</string>
+				<key>Size</key>
+				<integer>18</integer>
+			</dict>
+			<key>AccessibilityExtraExtraExtraLarge</key>
+			<dict>
+				<key>Font Name</key>
+				<string>Marker Felt</string>
+				<key>Size</key>
+				<integer>19</integer>
+			</dict>
+		</dict>
+	</dict>
+</array>
+</plist>

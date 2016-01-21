@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		701061951C4F7D3C00E90E58 /* FontStylesCatalog.plist in Resources */ = {isa = PBXBuildFile; fileRef = 701061941C4F7D3C00E90E58 /* FontStylesCatalog.plist */; };
+		701061971C4F7F9D00E90E58 /* FontStyleCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701061961C4F7F9D00E90E58 /* FontStyleCatalog.swift */; };
+		701061991C4F807600E90E58 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701061981C4F807600E90E58 /* Error.swift */; };
 		705576B51C4EE9B60071C421 /* BadType.h in Headers */ = {isa = PBXBuildFile; fileRef = 705576B41C4EE9B60071C421 /* BadType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		705576BC1C4EE9B70071C421 /* BadType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705576B11C4EE9B60071C421 /* BadType.framework */; };
-		705576C11C4EE9B70071C421 /* BadTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705576C01C4EE9B70071C421 /* BadTypeTests.swift */; };
 		705576D21C4EE9D30071C421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705576D11C4EE9D30071C421 /* AppDelegate.swift */; };
 		705576D41C4EE9D30071C421 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705576D31C4EE9D30071C421 /* ViewController.swift */; };
 		705576D71C4EE9D30071C421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 705576D51C4EE9D30071C421 /* Main.storyboard */; };
@@ -17,6 +19,21 @@
 		705576DC1C4EE9D30071C421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 705576DA1C4EE9D30071C421 /* LaunchScreen.storyboard */; };
 		705576E11C4EE9E20071C421 /* BadType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705576B11C4EE9B60071C421 /* BadType.framework */; };
 		705576E21C4EE9E20071C421 /* BadType.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 705576B11C4EE9B60071C421 /* BadType.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		705576E91C4EEBE20071C421 /* BadType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705576E81C4EEBE20071C421 /* BadType.swift */; };
+		705576ED1C4EEE240071C421 /* FontStylesCatalogSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705576EC1C4EEE240071C421 /* FontStylesCatalogSpec.swift */; };
+		705576F01C4EEE4E0071C421 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705576EE1C4EEE4E0071C421 /* Nimble.framework */; };
+		705576F11C4EEE4E0071C421 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 705576EF1C4EEE4E0071C421 /* Quick.framework */; };
+		705576F41C4EEF6C0071C421 /* Nimble.framework in Copy External Frameworks */ = {isa = PBXBuildFile; fileRef = 705576EE1C4EEE4E0071C421 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		705576F51C4EEF6C0071C421 /* Quick.framework in Copy External Frameworks */ = {isa = PBXBuildFile; fileRef = 705576EF1C4EEE4E0071C421 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		705576F61C4EEF6C0071C421 /* BadType.framework in Copy External Frameworks */ = {isa = PBXBuildFile; fileRef = 705576B11C4EE9B60071C421 /* BadType.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		705576FA1C4EEF8E0071C421 /* Nimble.framework.dSYM in Copy External Frameworks Debug Symbols */ = {isa = PBXBuildFile; fileRef = 705576F81C4EEF8E0071C421 /* Nimble.framework.dSYM */; };
+		705576FB1C4EEF8E0071C421 /* Quick.framework.dSYM in Copy External Frameworks Debug Symbols */ = {isa = PBXBuildFile; fileRef = 705576F91C4EEF8E0071C421 /* Quick.framework.dSYM */; };
+		705576FE1C4EF0BB0071C421 /* FontStylesCatalog.plist in Resources */ = {isa = PBXBuildFile; fileRef = 705576FD1C4EF0BB0071C421 /* FontStylesCatalog.plist */; };
+		70BF70631C50D02E00BB1267 /* UIFont+fontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BF70621C50D02E00BB1267 /* UIFont+fontStyle.swift */; };
+		70BF70651C50D07700BB1267 /* FontStyleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BF70641C50D07700BB1267 /* FontStyleable.swift */; };
+		70BF70671C50D5F200BB1267 /* FontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BF70661C50D5F200BB1267 /* FontStyle.swift */; };
+		70BF706A1C50D75500BB1267 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BF70691C50D75500BB1267 /* UILabel.swift */; };
+		70BF706C1C50D76D00BB1267 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BF706B1C50D76D00BB1267 /* UIButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,14 +72,41 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		705576F31C4EEF5A0071C421 /* Copy External Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				705576F41C4EEF6C0071C421 /* Nimble.framework in Copy External Frameworks */,
+				705576F51C4EEF6C0071C421 /* Quick.framework in Copy External Frameworks */,
+				705576F61C4EEF6C0071C421 /* BadType.framework in Copy External Frameworks */,
+			);
+			name = "Copy External Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		705576F71C4EEF730071C421 /* Copy External Frameworks Debug Symbols */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				705576FA1C4EEF8E0071C421 /* Nimble.framework.dSYM in Copy External Frameworks Debug Symbols */,
+				705576FB1C4EEF8E0071C421 /* Quick.framework.dSYM in Copy External Frameworks Debug Symbols */,
+			);
+			name = "Copy External Frameworks Debug Symbols";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		701061941C4F7D3C00E90E58 /* FontStylesCatalog.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FontStylesCatalog.plist; sourceTree = "<group>"; };
+		701061961C4F7F9D00E90E58 /* FontStyleCatalog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontStyleCatalog.swift; sourceTree = "<group>"; };
+		701061981C4F807600E90E58 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		705576B11C4EE9B60071C421 /* BadType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BadType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		705576B41C4EE9B60071C421 /* BadType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BadType.h; sourceTree = "<group>"; };
 		705576B61C4EE9B60071C421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		705576BB1C4EE9B70071C421 /* BadTypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BadTypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		705576C01C4EE9B70071C421 /* BadTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadTypeTests.swift; sourceTree = "<group>"; };
 		705576C21C4EE9B70071C421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		705576CF1C4EE9D30071C421 /* BadType-TestingApp-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BadType-TestingApp-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		705576D11C4EE9D30071C421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +115,18 @@
 		705576D81C4EE9D30071C421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		705576DB1C4EE9D30071C421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		705576DD1C4EE9D30071C421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		705576E81C4EEBE20071C421 /* BadType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadType.swift; sourceTree = "<group>"; };
+		705576EC1C4EEE240071C421 /* FontStylesCatalogSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FontStylesCatalogSpec.swift; path = Specs/FontStylesCatalogSpec.swift; sourceTree = "<group>"; };
+		705576EE1C4EEE4E0071C421 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		705576EF1C4EEE4E0071C421 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		705576F81C4EEF8E0071C421 /* Nimble.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Nimble.framework.dSYM; path = Carthage/Build/iOS/Nimble.framework.dSYM; sourceTree = "<group>"; };
+		705576F91C4EEF8E0071C421 /* Quick.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Quick.framework.dSYM; path = Carthage/Build/iOS/Quick.framework.dSYM; sourceTree = "<group>"; };
+		705576FD1C4EF0BB0071C421 /* FontStylesCatalog.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FontStylesCatalog.plist; sourceTree = "<group>"; };
+		70BF70621C50D02E00BB1267 /* UIFont+fontStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+fontStyle.swift"; sourceTree = "<group>"; };
+		70BF70641C50D07700BB1267 /* FontStyleable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontStyleable.swift; sourceTree = "<group>"; };
+		70BF70661C50D5F200BB1267 /* FontStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontStyle.swift; sourceTree = "<group>"; };
+		70BF70691C50D75500BB1267 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UILabel.swift; path = "UIKit Extensions/UILabel.swift"; sourceTree = "<group>"; };
+		70BF706B1C50D76D00BB1267 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIButton.swift; path = "UIKit Extensions/UIButton.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +141,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				705576F01C4EEE4E0071C421 /* Nimble.framework in Frameworks */,
+				705576F11C4EEE4E0071C421 /* Quick.framework in Frameworks */,
 				705576BC1C4EE9B70071C421 /* BadType.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +161,7 @@
 		705576A71C4EE9B60071C421 = {
 			isa = PBXGroup;
 			children = (
+				705576F21C4EEE5A0071C421 /* Dependencies */,
 				705576B31C4EE9B60071C421 /* BadType */,
 				705576BF1C4EE9B70071C421 /* BadTypeTests */,
 				705576D01C4EE9D30071C421 /* BadType-TestingApp-iOS */,
@@ -123,8 +182,16 @@
 		705576B31C4EE9B60071C421 /* BadType */ = {
 			isa = PBXGroup;
 			children = (
+				70BF70681C50D72000BB1267 /* UIKit Extensions */,
 				705576B41C4EE9B60071C421 /* BadType.h */,
+				701061941C4F7D3C00E90E58 /* FontStylesCatalog.plist */,
 				705576B61C4EE9B60071C421 /* Info.plist */,
+				705576E81C4EEBE20071C421 /* BadType.swift */,
+				701061981C4F807600E90E58 /* Error.swift */,
+				70BF70661C50D5F200BB1267 /* FontStyle.swift */,
+				70BF70641C50D07700BB1267 /* FontStyleable.swift */,
+				701061961C4F7F9D00E90E58 /* FontStyleCatalog.swift */,
+				70BF70621C50D02E00BB1267 /* UIFont+fontStyle.swift */,
 			);
 			path = BadType;
 			sourceTree = "<group>";
@@ -132,7 +199,7 @@
 		705576BF1C4EE9B70071C421 /* BadTypeTests */ = {
 			isa = PBXGroup;
 			children = (
-				705576C01C4EE9B70071C421 /* BadTypeTests.swift */,
+				705576EB1C4EEDE10071C421 /* Specs */,
 				705576C21C4EE9B70071C421 /* Info.plist */,
 			);
 			path = BadTypeTests;
@@ -141,14 +208,51 @@
 		705576D01C4EE9D30071C421 /* BadType-TestingApp-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				705576FD1C4EF0BB0071C421 /* FontStylesCatalog.plist */,
+				705576DD1C4EE9D30071C421 /* Info.plist */,
 				705576D11C4EE9D30071C421 /* AppDelegate.swift */,
 				705576D31C4EE9D30071C421 /* ViewController.swift */,
-				705576D51C4EE9D30071C421 /* Main.storyboard */,
 				705576D81C4EE9D30071C421 /* Assets.xcassets */,
 				705576DA1C4EE9D30071C421 /* LaunchScreen.storyboard */,
-				705576DD1C4EE9D30071C421 /* Info.plist */,
+				705576D51C4EE9D30071C421 /* Main.storyboard */,
 			);
 			path = "BadType-TestingApp-iOS";
+			sourceTree = "<group>";
+		};
+		705576EB1C4EEDE10071C421 /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				705576EC1C4EEE240071C421 /* FontStylesCatalogSpec.swift */,
+			);
+			name = Specs;
+			sourceTree = "<group>";
+		};
+		705576F21C4EEE5A0071C421 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				705576FC1C4EEF990071C421 /* Debug Symbols */,
+				705576EE1C4EEE4E0071C421 /* Nimble.framework */,
+				705576EF1C4EEE4E0071C421 /* Quick.framework */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		705576FC1C4EEF990071C421 /* Debug Symbols */ = {
+			isa = PBXGroup;
+			children = (
+				705576F81C4EEF8E0071C421 /* Nimble.framework.dSYM */,
+				705576F91C4EEF8E0071C421 /* Quick.framework.dSYM */,
+			);
+			name = "Debug Symbols";
+			sourceTree = "<group>";
+		};
+		70BF70681C50D72000BB1267 /* UIKit Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				70BF706B1C50D76D00BB1267 /* UIButton.swift */,
+				70BF70691C50D75500BB1267 /* UILabel.swift */,
+			);
+			name = "UIKit Extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +273,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 705576C51C4EE9B70071C421 /* Build configuration list for PBXNativeTarget "BadType" */;
 			buildPhases = (
+				705576EA1C4EEC020071C421 /* Lint Swift */,
 				705576AC1C4EE9B60071C421 /* Sources */,
 				705576AD1C4EE9B60071C421 /* Frameworks */,
 				705576AE1C4EE9B60071C421 /* Headers */,
@@ -190,6 +295,8 @@
 				705576B71C4EE9B70071C421 /* Sources */,
 				705576B81C4EE9B70071C421 /* Frameworks */,
 				705576B91C4EE9B70071C421 /* Resources */,
+				705576F31C4EEF5A0071C421 /* Copy External Frameworks */,
+				705576F71C4EEF730071C421 /* Copy External Frameworks Debug Symbols */,
 			);
 			buildRules = (
 			);
@@ -268,6 +375,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				701061951C4F7D3C00E90E58 /* FontStylesCatalog.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,16 +393,42 @@
 				705576DC1C4EE9D30071C421 /* LaunchScreen.storyboard in Resources */,
 				705576D91C4EE9D30071C421 /* Assets.xcassets in Resources */,
 				705576D71C4EE9D30071C421 /* Main.storyboard in Resources */,
+				705576FE1C4EF0BB0071C421 /* FontStylesCatalog.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		705576EA1C4EEC020071C421 /* Lint Swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Lint Swift";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"SwiftLint not found, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		705576AC1C4EE9B60071C421 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				701061971C4F7F9D00E90E58 /* FontStyleCatalog.swift in Sources */,
+				701061991C4F807600E90E58 /* Error.swift in Sources */,
+				70BF706A1C50D75500BB1267 /* UILabel.swift in Sources */,
+				70BF706C1C50D76D00BB1267 /* UIButton.swift in Sources */,
+				70BF70651C50D07700BB1267 /* FontStyleable.swift in Sources */,
+				705576E91C4EEBE20071C421 /* BadType.swift in Sources */,
+				70BF70631C50D02E00BB1267 /* UIFont+fontStyle.swift in Sources */,
+				70BF70671C50D5F200BB1267 /* FontStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +436,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				705576C11C4EE9B70071C421 /* BadTypeTests.swift in Sources */,
+				705576ED1C4EEE240071C421 /* FontStylesCatalogSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,30 +581,33 @@
 		705576C61C4EE9B70071C421 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = BadType/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bar.hacking.BadType;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		705576C71C4EE9B70071C421 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = BadType/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bar.hacking.BadType;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -481,10 +618,16 @@
 		705576C91C4EE9B70071C421 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = BadTypeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bar.hacking.BadTypeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BadType-TestingApp-iOS.app/BadType-TestingApp-iOS";
 			};
 			name = Debug;
@@ -492,6 +635,11 @@
 		705576CA1C4EE9B70071C421 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = BadTypeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bar.hacking.BadTypeTests;
@@ -504,11 +652,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "BadType-TestingApp-iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "bar.hacking.BadType-TestingApp-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -516,11 +668,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "BadType-TestingApp-iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "bar.hacking.BadType-TestingApp-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -543,6 +699,7 @@
 				705576C71C4EE9B70071C421 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		705576C81C4EE9B70071C421 /* Build configuration list for PBXNativeTarget "BadTypeTests" */ = {
 			isa = XCConfigurationList;
@@ -551,6 +708,7 @@
 				705576CA1C4EE9B70071C421 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		705576DE1C4EE9D30071C421 /* Build configuration list for PBXNativeTarget "BadType-TestingApp-iOS" */ = {
 			isa = XCConfigurationList;
@@ -559,6 +717,7 @@
 				705576E01C4EE9D30071C421 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
