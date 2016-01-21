@@ -33,6 +33,7 @@
 		70BF70651C50D07700BB1267 /* FontStyleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BF70641C50D07700BB1267 /* FontStyleable.swift */; };
 		70BF70671C50D5F200BB1267 /* FontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BF70661C50D5F200BB1267 /* FontStyle.swift */; };
 		70CF9BC51C510A3000DADCB4 /* BadType-Workaround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CF9BBE1C5106C900DADCB4 /* BadType-Workaround.swift */; };
+		70CF9BC71C510C1F00DADCB4 /* BadType-Workaround.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = 70CF9BBE1C5106C900DADCB4 /* BadType-Workaround.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,16 @@
 				705576FB1C4EEF8E0071C421 /* Quick.framework.dSYM in Copy External Frameworks Debug Symbols */,
 			);
 			name = "Copy External Frameworks Debug Symbols";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CF9BC61C510C1800DADCB4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				70CF9BC71C510C1F00DADCB4 /* BadType-Workaround.swift in CopyFiles */,
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -275,6 +286,7 @@
 				705576AD1C4EE9B60071C421 /* Frameworks */,
 				705576AE1C4EE9B60071C421 /* Headers */,
 				705576AF1C4EE9B60071C421 /* Resources */,
+				70CF9BC61C510C1800DADCB4 /* CopyFiles */,
 			);
 			buildRules = (
 			);
