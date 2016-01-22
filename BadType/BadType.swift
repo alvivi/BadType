@@ -10,13 +10,13 @@ public final class BadType: NSObject {
 
   public private(set) static var catalog: FontStylesCatalog? = {
     BadType.setupNotificationObserver()
-    #if TARGET_INTERFACE_BUILDER
+    if isRunningInInterfaceBuilder() {
       do {
         return try FontStylesCatalog.catalogFromStoryboardTarget()
       } catch let error {
         fatalError("\(error)")
       }
-    #else
+    } else {
       do {
         let catalog = try FontStylesCatalog()
         do {
@@ -31,17 +31,21 @@ public final class BadType: NSObject {
         logFunction("error \(error)")
         return nil
       }
-    #endif
+    }
   }()
 
   public static var contentSizeCategory: String {
     get {
-      #if TARGET_INTERFACE_BUILDER
-        return BadType.overriddenContentSizeCategory ?? UIContentSizeCategoryMedium
-      #else
-        return BadType.overriddenContentSizeCategory ?? UIApplication.sharedApplication().preferredContentSizeCategory
-      #endif
+      if let category = BadType.overriddenContentSizeCategory {
+        return category
+      }
+      let category = UIApplication.sharedApplication().preferredContentSizeCategory
+      if category.characters.count <= 0 {
+        return UIContentSizeCategoryMedium
+      }
+      return category
     }
+
     set {
       BadType.overriddenContentSizeCategory = newValue
     }
@@ -87,4 +91,8 @@ public final class BadType: NSObject {
       }
     }
   }
+}
+
+private func isRunningInInterfaceBuilder() -> Bool {
+   return NSProcessInfo.processInfo().environment["IB_PROJECT_SOURCE_DIRECTORIES"] != nil
 }

@@ -132,6 +132,7 @@
 		705576F81C4EEF8E0071C421 /* Nimble.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Nimble.framework.dSYM; path = Carthage/Build/iOS/Nimble.framework.dSYM; sourceTree = "<group>"; };
 		705576F91C4EEF8E0071C421 /* Quick.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Quick.framework.dSYM; path = Carthage/Build/iOS/Quick.framework.dSYM; sourceTree = "<group>"; };
 		705576FD1C4EF0BB0071C421 /* FontStylesCatalog.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FontStylesCatalog.plist; sourceTree = "<group>"; };
+		70B4852C1C51364F006C6813 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		70BF70621C50D02E00BB1267 /* UIFont+fontStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+fontStyle.swift"; sourceTree = "<group>"; };
 		70BF70641C50D07700BB1267 /* FontStyleable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontStyleable.swift; sourceTree = "<group>"; };
 		70BF70661C50D5F200BB1267 /* FontStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontStyle.swift; sourceTree = "<group>"; };
@@ -170,6 +171,7 @@
 		705576A71C4EE9B60071C421 = {
 			isa = PBXGroup;
 			children = (
+				70B4852C1C51364F006C6813 /* JavaScriptCore.framework */,
 				705576F21C4EEE5A0071C421 /* Dependencies */,
 				705576B31C4EE9B60071C421 /* BadType */,
 				705576BF1C4EE9B70071C421 /* BadTypeTests */,
