@@ -52,7 +52,7 @@ myLabel.fontStyle = "Headline"
 
 BadType will create a weak reference to that view to update the style if a
 dynamic type notification is received. For creating custom font style see
-[Custom Styles]() section.
+[Custom Styles](https://github.com/alvivi/BadType#custom-styles) section.
 
 ### Interface Builder Support
 
