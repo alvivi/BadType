@@ -93,7 +93,7 @@ Interface Builder Support.
 After embedding BadType in your project, just ensure that BadType Framework and
 `BadType/BadType/BadTypeIBWorkaround.swift` match your target.
 
-![ibmanual](https://cloud.githubusercontent.com/assets/23727/12515661/b858a522-c129-11e5-94b7-ba2c77773d22.png)
+![ibmanual](https://cloud.githubusercontent.com/assets/23727/12516661/e4ff211e-c12e-11e5-98f3-7f83f2820042.png)
 
 
 ### Custom Styles
