@@ -61,20 +61,20 @@ the Interface Builder compatibility requires additional configuration.
 
 BadType provides a family of components based UIKit ones that enable live view
 into Interface Builder. These components are declared in [`BadType/BadType/BadTypeIBWorkaround.swift`](https://github.com/alvivi/BadType/blob/master/BadType/BadTypeIBWorkaround.swift).
-To use them, first change the the view's **custom class** attribute to their
+To use them, first change the view's **custom class** attribute to their
 corresponding BadType class (for example, from `UILabel` to `BTLabel`,
-`UIButton` to `BTButton`, etc), and then set the **font style** attribute to
+`UIButton` to `BTButton`, etc). Then set the **font style** attribute to
 a name of a valid font style in your catalog (standard styles are `Headline`,
 `Body`, `Footnote` and so on). The font style attribute is **case-sensitive**.
 
 ![](https://cloud.githubusercontent.com/assets/23727/12514991/5a59dab6-c126-11e5-8b16-45535eb86e81.png)
 
-#### Enabling Interface Builder Support Using BadType as Framework
+#### Enabling Interface Builder Support Using BadType as a Framework
 
 To enable Interface Builder support you have to use a workaround. Frameworks do
 not carry `@IBDesignable` and `@IBInspectable` information, so Interface Builder
 does not see any custom views defined by BadType. To solve this problem, we have
-two options: add BadType to your project as target, or define in your project
+two options: add BadType to your project as a target, or define in your project
 all custom views. Here are the steps needed to use BadType as Framework and
 Interface Builder Support.
 
@@ -88,7 +88,7 @@ Interface Builder Support.
      BadType framework is located (something like `$(SRCROOT)/Carthage/Build` if
      you are using Carthage).
 
-#### Enabling Interface Builder Support Using BadType as Target
+#### Enabling Interface Builder Support Using BadType as a Target
 
 After embedding BadType in your project, just ensure that BadType Framework and
 `BadType/BadType/BadTypeIBWorkaround.swift` match your target.
