@@ -18,12 +18,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CrO-mO-BrV" customClass="BTButton" customModule="BadType">
+                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CrO-mO-BrV" customClass="BTButton" customModule="BadType_TestingApp_iOS" customModuleProvider="target">
                                 <rect key="frame" x="550" y="20" width="30" height="29"/>
                                 <state key="normal" title="Next"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyle" value="Body"/>
-                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="ZSV-4a-fHO" kind="show" id="jDJ-Ju-86Q"/>
                                 </connections>
@@ -160,12 +157,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TN1-lD-aJd" customClass="BTButton" customModule="BadType">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TN1-lD-aJd">
                                 <rect key="frame" x="20" y="20" width="32" height="29"/>
                                 <state key="normal" title="Back"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="fontStyle" value="Body"/>
-                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <segue destination="Edj-Zy-SUf" kind="unwind" unwindAction="unwindToFrist:" id="FqP-Ep-AFN"/>
                                 </connections>
