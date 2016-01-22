@@ -87,9 +87,16 @@ public final class FontStylesCatalog {
       return defaultFont
     }
     let size = style.sizes[index]
+    guard let fontName = style.fontNames[index] else {
+      return defaultFont.fontWithSize(size)
+    }
     let traits = style.traits[index]
-    let fontName = style.fontNames[index]
-    let descriptor = fontName != nil ? UIFontDescriptor(name: fontName!, size: 0) : defaultFont.fontDescriptor()
+    if traits.isEmpty {
+      let font = UIFont(name: fontName, size: size) ?? defaultFont
+      font.fontStyle = trimmedName
+      return font
+    }
+    let descriptor = UIFontDescriptor(name: fontName, size: 0)
     let font = UIFont(descriptor: descriptor.fontDescriptorWithSymbolicTraits(traits), size: size)
     font.fontStyle = trimmedName
     return font
