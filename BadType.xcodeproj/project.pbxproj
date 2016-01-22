@@ -29,11 +29,12 @@
 		705576FA1C4EEF8E0071C421 /* Nimble.framework.dSYM in Copy External Frameworks Debug Symbols */ = {isa = PBXBuildFile; fileRef = 705576F81C4EEF8E0071C421 /* Nimble.framework.dSYM */; };
 		705576FB1C4EEF8E0071C421 /* Quick.framework.dSYM in Copy External Frameworks Debug Symbols */ = {isa = PBXBuildFile; fileRef = 705576F91C4EEF8E0071C421 /* Quick.framework.dSYM */; };
 		705576FE1C4EF0BB0071C421 /* FontStylesCatalog.plist in Resources */ = {isa = PBXBuildFile; fileRef = 705576FD1C4EF0BB0071C421 /* FontStylesCatalog.plist */; };
+		708FF7271C51BE5900475175 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708FF7261C51BE5900475175 /* UILabel.swift */; };
+		708FF7291C51BE6500475175 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708FF7281C51BE6500475175 /* UIButton.swift */; };
+		708FF72C1C51C02F00475175 /* BadTypeIBWorkaround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708FF72A1C51BF4800475175 /* BadTypeIBWorkaround.swift */; };
 		70BF70631C50D02E00BB1267 /* UIFont+fontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BF70621C50D02E00BB1267 /* UIFont+fontStyle.swift */; };
 		70BF70651C50D07700BB1267 /* FontStyleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BF70641C50D07700BB1267 /* FontStyleable.swift */; };
 		70BF70671C50D5F200BB1267 /* FontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BF70661C50D5F200BB1267 /* FontStyle.swift */; };
-		70CF9BC51C510A3000DADCB4 /* BadType-Workaround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CF9BBE1C5106C900DADCB4 /* BadType-Workaround.swift */; };
-		70CF9BC71C510C1F00DADCB4 /* BadType-Workaround.swift in CopyFiles */ = {isa = PBXBuildFile; fileRef = 70CF9BBE1C5106C900DADCB4 /* BadType-Workaround.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,7 +104,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				70CF9BC71C510C1F00DADCB4 /* BadType-Workaround.swift in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,11 +132,13 @@
 		705576F81C4EEF8E0071C421 /* Nimble.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Nimble.framework.dSYM; path = Carthage/Build/iOS/Nimble.framework.dSYM; sourceTree = "<group>"; };
 		705576F91C4EEF8E0071C421 /* Quick.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Quick.framework.dSYM; path = Carthage/Build/iOS/Quick.framework.dSYM; sourceTree = "<group>"; };
 		705576FD1C4EF0BB0071C421 /* FontStylesCatalog.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FontStylesCatalog.plist; sourceTree = "<group>"; };
+		708FF7261C51BE5900475175 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UILabel.swift; path = "UIKit Extensions/UILabel.swift"; sourceTree = "<group>"; };
+		708FF7281C51BE6500475175 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIButton.swift; path = "UIKit Extensions/UIButton.swift"; sourceTree = "<group>"; };
+		708FF72A1C51BF4800475175 /* BadTypeIBWorkaround.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadTypeIBWorkaround.swift; sourceTree = "<group>"; };
 		70B4852C1C51364F006C6813 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		70BF70621C50D02E00BB1267 /* UIFont+fontStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+fontStyle.swift"; sourceTree = "<group>"; };
 		70BF70641C50D07700BB1267 /* FontStyleable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontStyleable.swift; sourceTree = "<group>"; };
 		70BF70661C50D5F200BB1267 /* FontStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontStyle.swift; sourceTree = "<group>"; };
-		70CF9BBE1C5106C900DADCB4 /* BadType-Workaround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BadType-Workaround.swift"; path = "UIKit Extensions/BadType-Workaround.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +200,7 @@
 				701061941C4F7D3C00E90E58 /* FontStylesCatalog.plist */,
 				705576B61C4EE9B60071C421 /* Info.plist */,
 				705576E81C4EEBE20071C421 /* BadType.swift */,
+				708FF72A1C51BF4800475175 /* BadTypeIBWorkaround.swift */,
 				701061981C4F807600E90E58 /* Error.swift */,
 				70BF70661C50D5F200BB1267 /* FontStyle.swift */,
 				70BF70641C50D07700BB1267 /* FontStyleable.swift */,
@@ -260,7 +263,8 @@
 		70BF70681C50D72000BB1267 /* UIKit Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				70CF9BBE1C5106C900DADCB4 /* BadType-Workaround.swift */,
+				708FF7281C51BE6500475175 /* UIButton.swift */,
+				708FF7261C51BE5900475175 /* UILabel.swift */,
 			);
 			name = "UIKit Extensions";
 			sourceTree = "<group>";
@@ -434,6 +438,8 @@
 			files = (
 				701061971C4F7F9D00E90E58 /* FontStyleCatalog.swift in Sources */,
 				701061991C4F807600E90E58 /* Error.swift in Sources */,
+				708FF7271C51BE5900475175 /* UILabel.swift in Sources */,
+				708FF7291C51BE6500475175 /* UIButton.swift in Sources */,
 				70BF70651C50D07700BB1267 /* FontStyleable.swift in Sources */,
 				705576E91C4EEBE20071C421 /* BadType.swift in Sources */,
 				70BF70631C50D02E00BB1267 /* UIFont+fontStyle.swift in Sources */,
@@ -453,8 +459,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70CF9BC51C510A3000DADCB4 /* BadType-Workaround.swift in Sources */,
 				705576D41C4EE9D30071C421 /* ViewController.swift in Sources */,
+				708FF72C1C51C02F00475175 /* BadTypeIBWorkaround.swift in Sources */,
 				705576D21C4EE9D30071C421 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
