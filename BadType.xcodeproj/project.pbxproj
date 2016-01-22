@@ -135,7 +135,6 @@
 		708FF7261C51BE5900475175 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UILabel.swift; path = "UIKit Extensions/UILabel.swift"; sourceTree = "<group>"; };
 		708FF7281C51BE6500475175 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIButton.swift; path = "UIKit Extensions/UIButton.swift"; sourceTree = "<group>"; };
 		708FF72A1C51BF4800475175 /* BadTypeIBWorkaround.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadTypeIBWorkaround.swift; sourceTree = "<group>"; };
-		70B4852C1C51364F006C6813 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		70BF70621C50D02E00BB1267 /* UIFont+fontStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+fontStyle.swift"; sourceTree = "<group>"; };
 		70BF70641C50D07700BB1267 /* FontStyleable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontStyleable.swift; sourceTree = "<group>"; };
 		70BF70661C50D5F200BB1267 /* FontStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontStyle.swift; sourceTree = "<group>"; };
@@ -173,7 +172,6 @@
 		705576A71C4EE9B60071C421 = {
 			isa = PBXGroup;
 			children = (
-				70B4852C1C51364F006C6813 /* JavaScriptCore.framework */,
 				705576F21C4EEE5A0071C421 /* Dependencies */,
 				705576B31C4EE9B60071C421 /* BadType */,
 				705576BF1C4EE9B70071C421 /* BadTypeTests */,
