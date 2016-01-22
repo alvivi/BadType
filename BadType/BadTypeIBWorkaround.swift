@@ -5,7 +5,6 @@
 // This file is needed to workaround
 // https://openradar.appspot.com/23114017
 
-
 import UIKit
 import BadType
 
